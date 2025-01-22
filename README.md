@@ -1,6 +1,6 @@
 
 
-```markdown
+```
 # Aluraflix 🎬
 
 Um projeto desenvolvido para gerenciar e exibir recomendações de vídeos e trailers no estilo do Netflix. Este projeto utiliza **React** e **Vite** para a criação de interfaces modernas, performáticas e responsivas.
@@ -42,7 +42,7 @@ src/
 ├── main.jsx             # Ponto de entrada do React
 ├── vite.config.js       # Configuração do Vite
 └── index.css            # Estilos globais
-```
+
 
 ---
 
@@ -58,22 +58,22 @@ src/
    ```bash
    git clone https://github.com/seu-usuario/aluraflix.git
    cd aluraflix
-   ```
+   
 
 2. Instale as dependências:
    ```bash
    npm install
-   ```
+   
 
 3. Inicie o servidor de desenvolvimento:
    ```bash
    npm run dev
-   ```
+   
 
 4. Acesse o projeto no navegador:
-   ```
+   
    http://localhost:5173
-   ```
+   
 
 ---
 
@@ -83,6 +83,19 @@ src/
 - **Componentização**: Organização modular para reuso de componentes.
 - **Validação de formulários**: Garantir que as URLs e dados enviados sejam válidos.
 - **Gerenciamento de estado**: Controle dinâmico dos vídeos exibidos na interface.
+
+---
+
+## 📸 Capturas de Tela
+
+### Página Inicial
+![Página Inicial](https://via.placeholder.com/800x400)
+
+### Adicionar Vídeo
+![Adicionar Vídeo](https://via.placeholder.com/800x400)
+
+### Erro 404
+![Erro 404](https://via.placeholder.com/800x400)
 
 ---
 
