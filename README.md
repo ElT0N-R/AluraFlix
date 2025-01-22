@@ -1,30 +1,58 @@
-# Aluraflix
 
-Aluraflix é uma aplicação de catálogo de vídeos inspirada, projetada para gerenciar e visualizar vídeos organizados por categorias. Este projeto faz parte dos desafios do programa Oracle Next Education (ONE).
 
----
+```markdown
+# Aluraflix 🎬
 
-## **Recursos**
-- Listagem de vídeos por categorias.
-- CRUD completo: Criar, Ler, Atualizar e Excluir vídeos.
-- Uso de uma API REST para armazenamento de vídeos.
-- Design responsivo e estilização com `styled-components`.
-- Contexto global para gerenciamento do estado dos vídeos.
+Um projeto desenvolvido para gerenciar e exibir recomendações de vídeos e trailers no estilo do Netflix. Este projeto utiliza **React** e **Vite** para a criação de interfaces modernas, performáticas e responsivas.
 
 ---
 
-## **Tecnologias Utilizadas**
-- **React**: Biblioteca para construir interfaces de usuário.
-- **Axios**: Gerenciamento de solicitações HTTP.
-- **React Icons**: Ícones para botões de edição e exclusão.
-- **Styled-components**: Estilização de componentes.
-- **MockAPI**: Simulação de uma API REST.
-- **React Router**: Navegação na aplicação (se aplicável).
+## 📋 Funcionalidades
+
+- Adicionar vídeos e trailers com título, descrição e URL.
+- Classificação de vídeos por categorias.
+- Validação de URLs para garantir a exibição correta dos vídeos.
+- Design responsivo, adaptável para dispositivos móveis e desktops.
 
 ---
 
-## **Instalação**
-Siga estas etapas para instalar e executar o projeto localmente:
+## 🛠️ Tecnologias Utilizadas
+
+- **React**: Biblioteca principal para a criação de interfaces.
+- **Vite**: Ferramenta para configuração e build do projeto.
+- **CSS3**: Estilização personalizada.
+- **JavaScript (ES6+)**: Lógica de aplicação.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```plaintext
+src/
+├── components/
+│   ├── Banner/          # Banner principal do projeto
+│   ├── VideoForm/       # Formulário para adicionar vídeos
+│   ├── VideoList/       # Lista de vídeos adicionados
+│   └── NotFound/        # Página para rotas não encontradas
+├── pages/
+│   ├── Home/            # Página inicial
+│   ├── About/           # Página sobre
+│   └── NotFound/        # Página de erro 404
+├── App.jsx              # Arquivo principal do React
+├── main.jsx             # Ponto de entrada do React
+├── vite.config.js       # Configuração do Vite
+└── index.css            # Estilos globais
+```
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+- Node.js instalado.
+- Gerenciador de pacotes (**npm** ou **yarn**) configurado.
+
+### Passos
 
 1. Clone o repositório:
    ```bash
@@ -37,17 +65,34 @@ Siga estas etapas para instalar e executar o projeto localmente:
    npm install
    ```
 
-3. Execute a aplicação:
+3. Inicie o servidor de desenvolvimento:
    ```bash
-   npm start
+   npm run dev
+   ```
+
+4. Acesse o projeto no navegador:
+   ```
+   http://localhost:5173
    ```
 
 ---
 
-## **Uso**
-1. Adicione um vídeo fornecendo o título, link e categoria.
-2. Edite os vídeos diretamente pela interface usando o ícone de edição.
-3. Exclua vídeos usando o ícone de lixeira com confirmação de segurança.
+## 🧠 O Que Foi Aprendido
 
+- **React Hooks**: Utilização de `useState` e `useEffect`.
+- **Componentização**: Organização modular para reuso de componentes.
+- **Validação de formulários**: Garantir que as URLs e dados enviados sejam válidos.
+- **Gerenciamento de estado**: Controle dinâmico dos vídeos exibidos na interface.
 
+---
 
+## ✍️ Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
+```
