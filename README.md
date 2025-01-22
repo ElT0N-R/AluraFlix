@@ -1,6 +1,6 @@
+Aqui está um exemplo de arquivo `README.md` para o projeto **Aluraflix**: 
 
-
-```
+```markdown
 # Aluraflix 🎬
 
 Um projeto desenvolvido para gerenciar e exibir recomendações de vídeos e trailers no estilo do Netflix. Este projeto utiliza **React** e **Vite** para a criação de interfaces modernas, performáticas e responsivas.
@@ -42,7 +42,7 @@ src/
 ├── main.jsx             # Ponto de entrada do React
 ├── vite.config.js       # Configuração do Vite
 └── index.css            # Estilos globais
-
+```
 
 ---
 
@@ -58,22 +58,22 @@ src/
    ```bash
    git clone https://github.com/seu-usuario/aluraflix.git
    cd aluraflix
-   
+   ```
 
 2. Instale as dependências:
    ```bash
    npm install
-   
+   ```
 
 3. Inicie o servidor de desenvolvimento:
    ```bash
    npm run dev
-   
+   ```
 
 4. Acesse o projeto no navegador:
-   
+   ```
    http://localhost:5173
-   
+   ```
 
 ---
 
@@ -109,3 +109,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou
 
 Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
 ```
+
+Se precisar personalizar algum ponto ou ajustar detalhes, é só avisar! 😊
