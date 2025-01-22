@@ -93,6 +93,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou
 ## 📝 Licença
 
 Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
-```
+
 
 
