@@ -1,6 +1,4 @@
-Aqui está um exemplo de arquivo `README.md` para o projeto **Aluraflix**: 
 
-```markdown
 # Aluraflix 🎬
 
 Um projeto desenvolvido para gerenciar e exibir recomendações de vídeos e trailers no estilo do Netflix. Este projeto utiliza **React** e **Vite** para a criação de interfaces modernas, performáticas e responsivas.
@@ -86,19 +84,6 @@ src/
 
 ---
 
-## 📸 Capturas de Tela
-
-### Página Inicial
-![Página Inicial](https://via.placeholder.com/800x400)
-
-### Adicionar Vídeo
-![Adicionar Vídeo](https://via.placeholder.com/800x400)
-
-### Erro 404
-![Erro 404](https://via.placeholder.com/800x400)
-
----
-
 ## ✍️ Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
@@ -110,4 +95,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou
 Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
 ```
 
-Se precisar personalizar algum ponto ou ajustar detalhes, é só avisar! 😊
+
